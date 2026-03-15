@@ -30,7 +30,7 @@ This repository contains standardized implementations of inverse problems from s
 ## Data
 
 Full datasets (input, ground truth, reconstruction outputs) are available on Hugging Face:
-🤗 [starpacker/inverse_benchmark_details](https://huggingface.co/datasets/starpacker/inverse_benchmark_details)
+🤗 [csusupergear/inverse_benchmark_details](https://huggingface.co/datasets/csusupergear/inverse_benchmark_details)
 
 ## Quick Start
 
