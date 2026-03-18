@@ -6,7 +6,7 @@ Digital holographic microscopy phase reconstruction using angular spectrum metho
 
 **Title**: pyDHM: A Python library for applications in digital holographic microscopy
 
-**Link**: [https://doi.org/10.1371/journal.pone.0275818](https://doi.org/10.1371/journal.pone.0275818)
+**Link**: https://doi.org/10.1371/journal.pone.0275818
 
 **GitHub Repository**: https://github.com/catrujilla/pyDHM
 
@@ -31,8 +31,10 @@ Digital holographic microscopy phase reconstruction using angular spectrum metho
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

@@ -6,7 +6,7 @@ Learned primal-dual CT reconstruction
 
 **Title**: Learned Primal-Dual Reconstruction
 
-**Link**: [doi:10.1109/TMI.2018.2799231](doi:10.1109/TMI.2018.2799231)
+**Link**: doi:10.1109/TMI.2018.2799231
 
 **GitHub Repository**: https://github.com/adler-j/learned_primal_dual
 
@@ -31,8 +31,10 @@ Learned primal-dual CT reconstruction
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

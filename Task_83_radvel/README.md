@@ -6,7 +6,7 @@ Radial velocity fitting for exoplanet detection using radvel
 
 **Title**: Potential Field Source Surface model package for Python
 
-**Link**: [doi:10.5281/zenodo.3257616 (Zenodo DOI)](doi:10.5281/zenodo.3257616 (Zenodo DOI))
+**Link**: doi:10.5281/zenodo.3257616 (Zenodo DOI)
 
 **GitHub Repository**: https://github.com/dstansby/pfsspy
 
@@ -31,8 +31,10 @@ Radial velocity fitting for exoplanet detection using radvel
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

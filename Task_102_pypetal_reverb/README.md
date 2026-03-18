@@ -6,7 +6,7 @@ AGN reverberation mapping using cross-correlation and deconvolution
 
 **Title**: pyPETaL: A Pipeline for Estimating AGN Time Lags
 
-**Link**: [ascl:2401.004 (ASCL reference); also see Shen et al. (2023) arXiv:2305.01014](ascl:2401.004 (ASCL reference); also see Shen et al. (2023) arXiv:2305.01014)
+**Link**: ascl:2401.004 (ASCL reference); also see Shen et al. (2023) arXiv:2305.01014
 
 **GitHub Repository**: https://github.com/Zstone19/pypetal
 
@@ -31,8 +31,10 @@ AGN reverberation mapping using cross-correlation and deconvolution
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

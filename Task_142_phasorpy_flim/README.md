@@ -4,9 +4,9 @@ FLIM phasor analysis using phasorpy
 
 ## 📄 Paper Information
 
-**Title**: None
+**Title**: ⚠️ phasorpy: Phasor approach to FLIM
 
-**Link**: [None](None)
+**Link**: ⚠️ doi:10.5281/zenodo.13862586
 
 **GitHub Repository**: https://github.com/phasorpy/phasorpy
 
@@ -31,8 +31,10 @@ FLIM phasor analysis using phasorpy
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

@@ -6,7 +6,7 @@ Baseline correction for spectroscopy using pybaselines
 
 **Title**: pybaselines: A Python library of algorithms for baseline correction
 
-**Link**: [https://doi.org/10.5281/zenodo.16790579](https://doi.org/10.5281/zenodo.16790579)
+**Link**: https://doi.org/10.5281/zenodo.16790579
 
 **GitHub Repository**: https://github.com/derb12/pybaselines
 
@@ -30,8 +30,10 @@ Baseline correction for spectroscopy using pybaselines
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

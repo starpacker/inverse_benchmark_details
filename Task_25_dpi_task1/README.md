@@ -6,7 +6,7 @@ Diffusion MRI microstructure parameter estimation (Task 1)
 
 **Title**: Deep Probabilistic Imaging: Uncertainty Quantification and Multi-modal Solution Characterization for Computational Imaging
 
-**Link**: [https://arxiv.org/abs/2010.14462 (AAAI 2021)](https://arxiv.org/abs/2010.14462 (AAAI 2021))
+**Link**: https://arxiv.org/abs/2010.14462 (AAAI 2021)
 
 **GitHub Repository**: https://github.com/HeSunPU/DPI
 
@@ -31,8 +31,10 @@ Diffusion MRI microstructure parameter estimation (Task 1)
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

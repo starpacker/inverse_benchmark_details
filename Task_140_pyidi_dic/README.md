@@ -4,9 +4,9 @@ Digital image correlation using ZNCC and Lucas-Kanade
 
 ## 📄 Paper Information
 
-**Title**: None
+**Title**: ⚠️ pyidi: Digital Image Correlation
 
-**Link**: [None](None)
+**Link**: ⚠️ Mech. Syst. Signal Process. 2022
 
 **GitHub Repository**: https://github.com/ladisk/pyidi
 
@@ -31,8 +31,10 @@ Digital image correlation using ZNCC and Lucas-Kanade
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

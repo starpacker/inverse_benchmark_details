@@ -6,7 +6,7 @@ EELS multiple scattering deconvolution using Fourier-log method
 
 **Title**: HyperSpy: Open source Python framework for multi-dimensional data analysis
 
-**Link**: [doi:10.5281/zenodo.592838 (Zenodo Concept DOI)](doi:10.5281/zenodo.592838 (Zenodo Concept DOI))
+**Link**: doi:10.5281/zenodo.592838 (Zenodo Concept DOI)
 
 **GitHub Repository**: https://github.com/hyperspy/hyperspy
 
@@ -31,8 +31,10 @@ EELS multiple scattering deconvolution using Fourier-log method
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

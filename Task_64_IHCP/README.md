@@ -6,7 +6,7 @@ Inverse heat conduction problem using Tikhonov regularization
 
 **Title**: Influence of the discretization methods on the distribution of relaxation times deconvolution: implementing radial basis functions with DRTtools
 
-**Link**: [https://doi.org/10.1016/j.electacta.2015.09.097](https://doi.org/10.1016/j.electacta.2015.09.097)
+**Link**: https://doi.org/10.1016/j.electacta.2015.09.097
 
 **GitHub Repository**: https://github.com/ciuccislab/pyDRTtools
 
@@ -31,8 +31,10 @@ Inverse heat conduction problem using Tikhonov regularization
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

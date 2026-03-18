@@ -4,9 +4,9 @@ FLIM decay fitting using bi-exponential model
 
 ## 📄 Paper Information
 
-**Title**: None
+**Title**: ⚠️ tttrlib: Time-Tagged Time-Resolved Library
 
-**Link**: [None](None)
+**Link**: ⚠️ arXiv:2402.17252
 
 **GitHub Repository**: https://github.com/Fluorescence-Tools/tttrlib
 
@@ -31,8 +31,10 @@ FLIM decay fitting using bi-exponential model
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

@@ -4,9 +4,9 @@ FLIM phasor analysis for fluorescence lifetime imaging
 
 ## 📄 Paper Information
 
-**Title**: None
+**Title**: ⚠️ Software library (cite via Zenodo)
 
-**Link**: [https://doi.org/10.5281/zenodo.13862586](https://doi.org/10.5281/zenodo.13862586)
+**Link**: https://doi.org/10.5281/zenodo.13862586
 
 **GitHub Repository**: https://github.com/phasorpy/phasorpy
 
@@ -30,8 +30,10 @@ FLIM phasor analysis for fluorescence lifetime imaging
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

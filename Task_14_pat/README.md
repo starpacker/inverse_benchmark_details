@@ -6,7 +6,7 @@ Photoacoustic tomography with spectral unmixing for blood oxygen saturation esti
 
 **Title**: PATATO: a Python photoacoustic tomography analysis toolkit
 
-**Link**: [doi:10.21105/joss.05686](doi:10.21105/joss.05686)
+**Link**: doi:10.21105/joss.05686
 
 **GitHub Repository**: https://github.com/BohndiekLab/patato
 
@@ -30,8 +30,10 @@ Photoacoustic tomography with spectral unmixing for blood oxygen saturation esti
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

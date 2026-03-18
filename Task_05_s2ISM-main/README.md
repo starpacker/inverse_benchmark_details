@@ -6,7 +6,7 @@ Image scanning microscopy (ISM) super-resolution using pixel reassignment and Ri
 
 **Title**: Structured detection for simultaneous super-resolution and optical sectioning in laser scanning microscopy
 
-**Link**: [doi:10.1038/s41566-025-01695-0](doi:10.1038/s41566-025-01695-0)
+**Link**: doi:10.1038/s41566-025-01695-0
 
 **GitHub Repository**: https://github.com/VicidominiLab/s2ISM
 
@@ -31,8 +31,10 @@ Image scanning microscopy (ISM) super-resolution using pixel reassignment and Ri
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

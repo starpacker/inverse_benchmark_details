@@ -4,9 +4,9 @@ Spike sorting using Kilosort template matching
 
 ## 📄 Paper Information
 
-**Title**: None
+**Title**: ⚠️ Kilosort4: accurate spike sorting by template matching
 
-**Link**: [None](None)
+**Link**: ⚠️ Nature Methods 2024
 
 **GitHub Repository**: https://github.com/MouseLand/Kilosort
 
@@ -30,8 +30,10 @@ Spike sorting using Kilosort template matching
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

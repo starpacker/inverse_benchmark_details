@@ -4,9 +4,9 @@ Photonic structure optimization using angler adjoint method
 
 ## 📄 Paper Information
 
-**Title**: None
+**Title**: ⚠️ Angler: Photonic inverse design
 
-**Link**: [None](None)
+**Link**: ⚠️ ACS Photonics
 
 **GitHub Repository**: https://github.com/fancompute/angler
 
@@ -30,8 +30,10 @@ Photonic structure optimization using angler adjoint method
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

@@ -6,7 +6,7 @@ Radio interferometry imaging using CLEAN algorithm
 
 **Title**: Interferometric Imaging Directly with Closure Phases and Closure Amplitudes
 
-**Link**: [https://doi.org/10.3847/1538-4357/aab6a8](https://doi.org/10.3847/1538-4357/aab6a8)
+**Link**: https://doi.org/10.3847/1538-4357/aab6a8
 
 **GitHub Repository**: https://github.com/achael/eht-imaging
 
@@ -31,8 +31,10 @@ Radio interferometry imaging using CLEAN algorithm
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

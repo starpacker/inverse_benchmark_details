@@ -6,7 +6,7 @@ Electrochemical impedance spectroscopy DRT analysis using pyDRTtools
 
 **Title**: Ab initio electron density determination directly from solution scattering data
 
-**Link**: [https://doi.org/10.1038/nmeth.4581](https://doi.org/10.1038/nmeth.4581)
+**Link**: https://doi.org/10.1038/nmeth.4581
 
 **GitHub Repository**: https://github.com/tdgrant1/denss
 
@@ -30,8 +30,10 @@ Electrochemical impedance spectroscopy DRT analysis using pyDRTtools
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

@@ -4,9 +4,9 @@ Diffusion posterior sampling for image restoration
 
 ## 📄 Paper Information
 
-**Title**: None
+**Title**: ⚠️ Diffusion Posterior Sampling
 
-**Link**: [None](None)
+**Link**: ⚠️ ICLR 2023 spotlight
 
 **GitHub Repository**: https://github.com/DPS2022/diffusion-posterior-sampling
 
@@ -31,8 +31,10 @@ Diffusion posterior sampling for image restoration
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

@@ -6,7 +6,7 @@ Adaptive optics simulation using HCIpy with Fraunhofer propagation
 
 **Title**: High Contrast Imaging for Python (HCIPy): an open-source adaptive optics and coronagraph simulator
 
-**Link**: [doi:10.1117/12.2314407](doi:10.1117/12.2314407)
+**Link**: doi:10.1117/12.2314407
 
 **GitHub Repository**: https://github.com/ehpor/hcipy
 
@@ -30,8 +30,10 @@ Adaptive optics simulation using HCIpy with Fraunhofer propagation
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

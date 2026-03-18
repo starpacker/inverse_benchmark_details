@@ -4,11 +4,11 @@ Geodetic strain field estimation from GPS velocities
 
 ## 📄 Paper Information
 
-**Title**: None
+**Title**: ⚠️ Strain determination using spatially discrete geodetic data (Shen et al., 2015; benchmark task uses custom reimplementation)
 
-**Link**: [None](None)
+**Link**: ⚠️ doi:10.1785/0120140247 (Shen et al., BSSA, 2015) + Zenodo DOI:10.5281/zenodo.1297565 (StrainTool software)
 
-**GitHub Repository**: None
+**GitHub Repository**: ⚠️ Custom benchmark task; reference implementation inspired by https://github.com/DSOlab/StrainTool (Shen et al. method)
 
 ## 📊 Performance Metrics
 
@@ -31,8 +31,10 @@ Geodetic strain field estimation from GPS velocities
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

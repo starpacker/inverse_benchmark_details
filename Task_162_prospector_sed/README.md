@@ -6,7 +6,7 @@ SED fitting for galaxy properties using Prospector
 
 **Title**: Stellar Population Inference with Prospector
 
-**Link**: [doi:10.3847/1538-4365/abef67](doi:10.3847/1538-4365/abef67)
+**Link**: doi:10.3847/1538-4365/abef67
 
 **GitHub Repository**: https://github.com/bd-j/prospector
 
@@ -30,8 +30,10 @@ SED fitting for galaxy properties using Prospector
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

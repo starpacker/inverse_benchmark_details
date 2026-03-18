@@ -6,7 +6,7 @@ Marine CSEM 1D resistivity inversion using empymod
 
 **Title**: PyLops—A linear-operator Python library for scalable algebra and optimization
 
-**Link**: [doi:10.1016/j.softx.2019.100361](doi:10.1016/j.softx.2019.100361)
+**Link**: doi:10.1016/j.softx.2019.100361
 
 **GitHub Repository**: https://github.com/PyLops/pylops
 
@@ -31,8 +31,10 @@ Marine CSEM 1D resistivity inversion using empymod
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

@@ -6,7 +6,7 @@
 
 **Title**: 21cmFAST v3: A Python-integrated C code for generating 3D realizations of the cosmic 21cm signal
 
-**Link**: [doi:10.1093/mnras/staa3408 (Murray et al., MNRAS, 2020)](doi:10.1093/mnras/staa3408 (Murray et al., MNRAS, 2020))
+**Link**: doi:10.1093/mnras/staa3408 (Murray et al., MNRAS, 2020)
 
 **GitHub Repository**: https://github.com/21cmfast/21cmFAST
 
@@ -30,8 +30,10 @@
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

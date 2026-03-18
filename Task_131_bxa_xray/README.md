@@ -6,7 +6,7 @@ X-ray spectral fitting using BXA nested sampling
 
 **Title**: BXA: Bayesian X-ray Analysis
 
-**Link**: [https://doi.org/10.21105/joss.03045](https://doi.org/10.21105/joss.03045)
+**Link**: https://doi.org/10.21105/joss.03045
 
 **GitHub Repository**: https://github.com/JohannesBuchner/BXA/
 
@@ -30,8 +30,10 @@ X-ray spectral fitting using BXA nested sampling
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

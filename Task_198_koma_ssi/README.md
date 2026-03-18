@@ -4,9 +4,9 @@ Structural system identification using SSI-COV
 
 ## 📄 Paper Information
 
-**Title**: None
+**Title**: ⚠️ KOMA: Operational modal analysis
 
-**Link**: [None](None)
+**Link**: ❌ Not documented
 
 **GitHub Repository**: https://github.com/knutankv/koma
 
@@ -30,8 +30,10 @@ Structural system identification using SSI-COV
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

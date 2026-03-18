@@ -6,7 +6,7 @@ Cone-beam CT reconstruction using NAF neural fields
 
 **Title**: Neural Attenuation Fields for Sparse-View CBCT Reconstruction
 
-**Link**: [None](None)
+**Link**: ⚠️ MICCAI 2022 (Oral)
 
 **GitHub Repository**: https://github.com/Ruyi-Zha/naf_cbct
 
@@ -31,8 +31,10 @@ Cone-beam CT reconstruction using NAF neural fields
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

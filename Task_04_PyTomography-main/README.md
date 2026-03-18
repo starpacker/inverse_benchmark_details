@@ -6,7 +6,7 @@ SPECT/PET tomographic reconstruction using OSEM (Ordered Subset Expectation Maxi
 
 **Title**: PyTomography: A python library for medical image reconstruction
 
-**Link**: [doi:10.1016/j.softx.2024.102020](doi:10.1016/j.softx.2024.102020)
+**Link**: doi:10.1016/j.softx.2024.102020
 
 **GitHub Repository**: https://github.com/qurit/PyTomography
 
@@ -31,8 +31,10 @@ SPECT/PET tomographic reconstruction using OSEM (Ordered Subset Expectation Maxi
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

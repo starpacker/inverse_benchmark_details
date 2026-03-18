@@ -6,7 +6,7 @@ CT reconstruction using torch-radon with SIRT
 
 **Title**: TorchRadon: Fast Differentiable Routines for Computed Tomography
 
-**Link**: [arXiv:2009.14788](arXiv:2009.14788)
+**Link**: arXiv:2009.14788
 
 **GitHub Repository**: https://github.com/matteo-ronchetti/torch-radon
 
@@ -31,8 +31,10 @@ CT reconstruction using torch-radon with SIRT
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

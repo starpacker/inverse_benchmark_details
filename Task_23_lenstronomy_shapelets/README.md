@@ -6,7 +6,7 @@ Galaxy light profile reconstruction using Shapelet basis decomposition
 
 **Title**: lenstronomy II: A gravitational lensing software ecosystem
 
-**Link**: [https://joss.theoj.org/papers/10.21105/joss.03283 ; https://arxiv.org/abs/1803.09746](https://joss.theoj.org/papers/10.21105/joss.03283 ; https://arxiv.org/abs/1803.09746)
+**Link**: https://joss.theoj.org/papers/10.21105/joss.03283 ; https://arxiv.org/abs/1803.09746
 
 **GitHub Repository**: https://github.com/lenstronomy/lenstronomy
 
@@ -30,8 +30,10 @@ Galaxy light profile reconstruction using Shapelet basis decomposition
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

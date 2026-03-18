@@ -6,7 +6,7 @@ Electrochemical impedance spectroscopy fitting using Randles circuit
 
 **Title**: impedance.py: A Python package for electrochemical impedance analysis
 
-**Link**: [doi:10.21105/joss.02349 (Murbach et al., JOSS, 2020)](doi:10.21105/joss.02349 (Murbach et al., JOSS, 2020))
+**Link**: doi:10.21105/joss.02349 (Murbach et al., JOSS, 2020)
 
 **GitHub Repository**: https://github.com/ECSHackWeek/impedance.py
 
@@ -31,8 +31,10 @@ Electrochemical impedance spectroscopy fitting using Randles circuit
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

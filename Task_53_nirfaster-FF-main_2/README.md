@@ -6,7 +6,7 @@ Near-infrared optical tomography using finite element forward model
 
 **Title**: NIRFASTerFF: An accessible, cross-platform python package for fast photon modeling
 
-**Link**: [https://doi.org/10.1117/1.jbo.30.11.115001](https://doi.org/10.1117/1.jbo.30.11.115001)
+**Link**: https://doi.org/10.1117/1.jbo.30.11.115001
 
 **GitHub Repository**: https://github.com/milabuob/nirfaster-FF
 
@@ -30,8 +30,10 @@ Near-infrared optical tomography using finite element forward model
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

@@ -6,9 +6,9 @@ Accelerated MRI reconstruction using ISTA with TV regularization
 
 **Title**: fastMRI: An Open Dataset and Benchmarks for Accelerated MRI
 
-**Link**: [arXiv:1811.08839](arXiv:1811.08839)
+**Link**: arXiv:1811.08839
 
-**GitHub Repository**: None
+**GitHub Repository**: https://github.com/facebookresearch/fastMRI
 
 ## 📊 Performance Metrics
 
@@ -31,8 +31,10 @@ Accelerated MRI reconstruction using ISTA with TV regularization
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

@@ -4,9 +4,9 @@ Dynamic mode decomposition using pyDMD
 
 ## 📄 Paper Information
 
-**Title**: None
+**Title**: ⚠️ PyDMD: Dynamic Mode Decomposition
 
-**Link**: [None](None)
+**Link**: ⚠️ JOSS + JMLR
 
 **GitHub Repository**: https://github.com/PyDMD/PyDMD
 
@@ -31,8 +31,10 @@ Dynamic mode decomposition using pyDMD
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

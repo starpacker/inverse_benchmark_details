@@ -4,9 +4,9 @@ Cosmological parameter inference using MontePython
 
 ## 📄 Paper Information
 
-**Title**: None
+**Title**: ⚠️ MontePython 3: boosted MCMC sampler
 
-**Link**: [None](None)
+**Link**: ⚠️ arXiv:1804.07261
 
 **GitHub Repository**: https://github.com/brinckmann/montepython_public
 
@@ -31,8 +31,10 @@ Cosmological parameter inference using MontePython
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

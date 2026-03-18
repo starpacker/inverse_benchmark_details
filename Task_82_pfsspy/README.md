@@ -6,7 +6,7 @@ Solar coronal magnetic field extrapolation using PFSS model
 
 **Title**: RM-synthesis, RM-clean and QU-fitting on polarised radio spectra
 
-**Link**: [doi:10.3847/1538-4365/ae3dea](doi:10.3847/1538-4365/ae3dea)
+**Link**: doi:10.3847/1538-4365/ae3dea
 
 **GitHub Repository**: https://github.com/CIRADA-Tools/RM-Tools
 
@@ -31,8 +31,10 @@ Solar coronal magnetic field extrapolation using PFSS model
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

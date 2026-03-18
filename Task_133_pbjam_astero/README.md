@@ -4,9 +4,9 @@ Asteroseismology mode fitting using pbjam
 
 ## 📄 Paper Information
 
-**Title**: None
+**Title**: ⚠️ PBjam: A Python Package for Automating Asteroseismology
 
-**Link**: [None](None)
+**Link**: ⚠️ doi:10.3847/1538-3881/abcd39
 
 **GitHub Repository**: https://github.com/nielsenmb/PBjam
 
@@ -30,8 +30,10 @@ Asteroseismology mode fitting using pbjam
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

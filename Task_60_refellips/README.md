@@ -4,9 +4,9 @@ Spectroscopic ellipsometry inversion using refellips
 
 ## 📄 Paper Information
 
-**Title**: None
+**Title**: ⚠️ refnx: neutron and X-ray reflectometry analysis in Python
 
-**Link**: [https://doi.org/10.1107/s1600576718017296](https://doi.org/10.1107/s1600576718017296)
+**Link**: https://doi.org/10.1107/s1600576718017296
 
 **GitHub Repository**: https://github.com/refnx/refnx
 
@@ -30,8 +30,10 @@ Spectroscopic ellipsometry inversion using refellips
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

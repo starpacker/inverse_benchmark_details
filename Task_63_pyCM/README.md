@@ -4,9 +4,9 @@ Confocal microscopy deconvolution (pyCM)
 
 ## 📄 Paper Information
 
-**Title**: None
+**Title**: ⚠️ Larch: An Analysis Package for XAFS and Related Spectroscopies
 
-**Link**: [https://doi.org/10.1088/1742-6596/430/1/012007](https://doi.org/10.1088/1742-6596/430/1/012007)
+**Link**: https://doi.org/10.1088/1742-6596/430/1/012007
 
 **GitHub Repository**: https://github.com/xraypy/xraylarch
 
@@ -31,8 +31,10 @@ Confocal microscopy deconvolution (pyCM)
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

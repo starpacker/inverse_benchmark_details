@@ -6,7 +6,7 @@ Event-based vision reconstruction using e2vid
 
 **Title**: High Speed and High Dynamic Range Video with an Event Camera
 
-**Link**: [https://doi.org/10.1109/TPAMI.2019.2963386](https://doi.org/10.1109/TPAMI.2019.2963386)
+**Link**: https://doi.org/10.1109/TPAMI.2019.2963386
 
 **GitHub Repository**: https://github.com/uzh-rpg/rpg_e2vid
 
@@ -31,8 +31,10 @@ Event-based vision reconstruction using e2vid
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

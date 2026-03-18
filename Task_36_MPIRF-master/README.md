@@ -6,7 +6,7 @@ Magnetic particle imaging (MPI) reconstruction using system matrix inversion
 
 **Title**: A novel software framework for magnetic particle imaging reconstruction
 
-**Link**: [doi:10.1002/ima.22707](doi:10.1002/ima.22707)
+**Link**: doi:10.1002/ima.22707
 
 **GitHub Repository**: https://github.com/XiaoYaoNet/MPIRF
 
@@ -31,8 +31,10 @@ Magnetic particle imaging (MPI) reconstruction using system matrix inversion
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

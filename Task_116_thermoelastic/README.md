@@ -4,11 +4,11 @@ Thermoelastic stress analysis using TSA imaging
 
 ## 📄 Paper Information
 
-**Title**: None
+**Title**: ⚠️ No dedicated paper — standard thermoelastic stress analysis (TSA) reconstruction
 
-**Link**: [None](None)
+**Link**: ❌ No formal publication (custom Category A benchmark task)
 
-**GitHub Repository**: None
+**GitHub Repository**: ⚠️ https://github.com/OPM/IFEM-ThermoElasticity
 
 ## 📊 Performance Metrics
 
@@ -31,8 +31,10 @@ Thermoelastic stress analysis using TSA imaging
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

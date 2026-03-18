@@ -6,7 +6,7 @@ MR fingerprinting parameter mapping using invertible neural network
 
 **Title**: Learning Bloch Simulations for MR Fingerprinting by Invertible Neural Networks
 
-**Link**: [doi:10.1007/978-3-030-61598-7_6](doi:10.1007/978-3-030-61598-7_6)
+**Link**: doi:10.1007/978-3-030-61598-7_6
 
 **GitHub Repository**: https://github.com/fabianbalsiger/mrf-reconstruction-mlmir2020
 
@@ -30,8 +30,10 @@ MR fingerprinting parameter mapping using invertible neural network
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

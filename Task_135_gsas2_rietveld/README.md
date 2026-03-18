@@ -6,7 +6,7 @@ Rietveld refinement for crystal structure using GSAS-II
 
 **Title**: GSAS-II: the genesis of a modern open-source all purpose crystallography software package
 
-**Link**: [doi:10.1107/S0021889813003531](doi:10.1107/S0021889813003531)
+**Link**: doi:10.1107/S0021889813003531
 
 **GitHub Repository**: https://github.com/AdvancedPhotonSource/GSAS-II
 
@@ -30,8 +30,10 @@ Rietveld refinement for crystal structure using GSAS-II
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

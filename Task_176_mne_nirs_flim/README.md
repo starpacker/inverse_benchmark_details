@@ -4,9 +4,9 @@ fNIRS hemodynamic response estimation using modified Beer-Lambert law
 
 ## 📄 Paper Information
 
-**Title**: None
+**Title**: ⚠️ MNE-NIRS: fNIRS analysis
 
-**Link**: [None](None)
+**Link**: ⚠️ Neurophotonics
 
 **GitHub Repository**: https://github.com/mne-tools/mne-nirs
 
@@ -30,8 +30,10 @@ fNIRS hemodynamic response estimation using modified Beer-Lambert law
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

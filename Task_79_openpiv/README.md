@@ -4,11 +4,11 @@ Particle image velocimetry using OpenPIV cross-correlation
 
 ## 📄 Paper Information
 
-**Title**: None
+**Title**: ❌ Not found (domain mismatch with search hints)
 
-**Link**: [None](None)
+**Link**: ❌ Not found
 
-**GitHub Repository**: None
+**GitHub Repository**: ⚠️ https://github.com/puls-lab/phoeniks (THz spectroscopy, not exoplanet atmosphere retrieval)
 
 ## 📊 Performance Metrics
 
@@ -31,8 +31,10 @@ Particle image velocimetry using OpenPIV cross-correlation
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

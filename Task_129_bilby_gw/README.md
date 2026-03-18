@@ -6,7 +6,7 @@ Gravitational wave parameter estimation using Bilby
 
 **Title**: Bilby: A User-friendly Bayesian Inference Library for Gravitational-wave Astronomy
 
-**Link**: [https://doi.org/10.3847/1538-4365/ab06fc](https://doi.org/10.3847/1538-4365/ab06fc)
+**Link**: https://doi.org/10.3847/1538-4365/ab06fc
 
 **GitHub Repository**: https://github.com/bilby-dev/bilby
 
@@ -31,8 +31,10 @@ Gravitational wave parameter estimation using Bilby
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

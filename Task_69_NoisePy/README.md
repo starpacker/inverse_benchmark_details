@@ -6,7 +6,7 @@ Ambient noise tomography using NoisePy
 
 **Title**: NoisePy: a new high-performance python tool for seismic ambient noise seismology
 
-**Link**: [https://doi.org/10.1785/0220190364](https://doi.org/10.1785/0220190364)
+**Link**: https://doi.org/10.1785/0220190364
 
 **GitHub Repository**: https://github.com/noisepy/NoisePy
 
@@ -31,8 +31,10 @@ Ambient noise tomography using NoisePy
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

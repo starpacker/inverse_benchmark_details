@@ -6,7 +6,7 @@ High-contrast imaging using PCA-based ADI reduction
 
 **Title**: PynPoint: a modular pipeline architecture for processing and analysis of high-contrast imaging data
 
-**Link**: [doi:10.1051/0004-6361/201834136](doi:10.1051/0004-6361/201834136)
+**Link**: doi:10.1051/0004-6361/201834136
 
 **GitHub Repository**: https://github.com/PynPoint/PynPoint
 
@@ -30,8 +30,10 @@ High-contrast imaging using PCA-based ADI reduction
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

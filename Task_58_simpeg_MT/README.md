@@ -6,7 +6,7 @@ Magnetotelluric 1D inversion using SimPEG
 
 **Title**: A Meshless Method to Compute Pressure Fields from Image Velocimetry
 
-**Link**: [https://doi.org/10.1088/1361-6501/ac70a9](https://doi.org/10.1088/1361-6501/ac70a9)
+**Link**: https://doi.org/10.1088/1361-6501/ac70a9
 
 **GitHub Repository**: https://github.com/mendezVKI/SPICY_VKI
 
@@ -31,8 +31,10 @@ Magnetotelluric 1D inversion using SimPEG
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

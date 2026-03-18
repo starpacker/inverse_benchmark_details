@@ -6,7 +6,7 @@ THz time-domain spectroscopy material parameter extraction using phoeniks
 
 **Title**: batman: Bad-Ass Transit Model cAlculatioN in Python
 
-**Link**: [https://doi.org/10.1086/683602](https://doi.org/10.1086/683602)
+**Link**: https://doi.org/10.1086/683602
 
 **GitHub Repository**: https://github.com/lkreidberg/batman
 
@@ -31,8 +31,10 @@ THz time-domain spectroscopy material parameter extraction using phoeniks
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

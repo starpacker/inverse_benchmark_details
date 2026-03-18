@@ -4,9 +4,9 @@ CT reconstruction using diffusion model guidance
 
 ## 📄 Paper Information
 
-**Title**: None
+**Title**: ⚠️ DM4CT: Diffusion models for CT
 
-**Link**: [None](None)
+**Link**: ⚠️ ICLR 2026
 
 **GitHub Repository**: https://github.com/DM4CT/DM4CT
 
@@ -31,8 +31,10 @@ CT reconstruction using diffusion model guidance
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

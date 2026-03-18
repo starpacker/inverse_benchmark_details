@@ -6,7 +6,7 @@ MRI reconstruction using Reconformer transformer
 
 **Title**: ReconFormer: Accelerated MRI Reconstruction Using Recurrent Transformer
 
-**Link**: [https://doi.org/10.1109/tmi.2023.3314747](https://doi.org/10.1109/tmi.2023.3314747)
+**Link**: https://doi.org/10.1109/tmi.2023.3314747
 
 **GitHub Repository**: https://github.com/guopengf/ReconFormer
 
@@ -31,8 +31,10 @@ MRI reconstruction using Reconformer transformer
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

@@ -6,7 +6,7 @@ Abel inversion for cylindrically symmetric data using basis set expansion
 
 **Title**: PyAbel: A Python package for Abel transform inversion
 
-**Link**: [https://doi.org/10.1063/1.5092635](https://doi.org/10.1063/1.5092635)
+**Link**: https://doi.org/10.1063/1.5092635
 
 **GitHub Repository**: https://github.com/PyAbel/PyAbel
 
@@ -30,8 +30,10 @@ Abel inversion for cylindrically symmetric data using basis set expansion
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

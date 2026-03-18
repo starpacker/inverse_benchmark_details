@@ -4,11 +4,11 @@ Beam propagation method (BPM) for refractive index reconstruction in optical wav
 
 ## 📄 Paper Information
 
-**Title**: None
+**Title**: ⚠️ No dedicated paper — Beam Propagation Method ODT reconstruction with adjoint-state gradient + FISTA acceleration
 
-**Link**: [None](None)
+**Link**: ❌ No formal publication (custom benchmark task)
 
-**GitHub Repository**: None
+**GitHub Repository**: ⚠️ Custom benchmark task (no published repo; implements Batched BPM inversion with FISTA-accelerated regularized gradient descent using numpy/scipy)
 
 ## 📊 Performance Metrics
 
@@ -30,8 +30,10 @@ Beam propagation method (BPM) for refractive index reconstruction in optical wav
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

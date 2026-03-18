@@ -6,7 +6,7 @@ Ultrasound computed tomography using stride
 
 **Title**: Stride: a flexible platform for high-performance ultrasound computed tomography
 
-**Link**: [https://doi.org/10.1016/j.cmpb.2022.106855](https://doi.org/10.1016/j.cmpb.2022.106855)
+**Link**: https://doi.org/10.1016/j.cmpb.2022.106855
 
 **GitHub Repository**: https://github.com/trustimaging/stride
 
@@ -31,8 +31,10 @@ Ultrasound computed tomography using stride
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

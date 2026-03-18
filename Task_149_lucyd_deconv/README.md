@@ -6,7 +6,7 @@ Fluorescence microscopy deconvolution using Lucy-Richardson
 
 **Title**: LUCYD: A Feature-Driven Richardson-Lucy Deconvolution Network
 
-**Link**: [doi:10.1007/978-3-031-43993-3_63](doi:10.1007/978-3-031-43993-3_63)
+**Link**: doi:10.1007/978-3-031-43993-3_63
 
 **GitHub Repository**: https://github.com/ctom2/lucyd-deconvolution
 
@@ -31,8 +31,10 @@ Fluorescence microscopy deconvolution using Lucy-Richardson
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

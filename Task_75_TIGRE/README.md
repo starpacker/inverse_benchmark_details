@@ -6,7 +6,7 @@ CT reconstruction using TIGRE with FBP, SIRT, and CGLS
 
 **Title**: TIGRE: A MATLAB-GPU toolbox for CBCT image reconstruction
 
-**Link**: [https://doi.org/10.1088/2057-1976/2/5/055010](https://doi.org/10.1088/2057-1976/2/5/055010)
+**Link**: https://doi.org/10.1088/2057-1976/2/5/055010
 
 **GitHub Repository**: https://github.com/CERN/TIGRE
 
@@ -31,8 +31,10 @@ CT reconstruction using TIGRE with FBP, SIRT, and CGLS
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

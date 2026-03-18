@@ -6,7 +6,7 @@ Diffusion MRI microstructure estimation using dmipy multi-compartment models
 
 **Title**: The Dmipy Toolbox: Diffusion MRI Multi-Compartment Modeling and Microstructure Recovery Made Easy
 
-**Link**: [doi:10.3389/fninf.2019.00064](doi:10.3389/fninf.2019.00064)
+**Link**: doi:10.3389/fninf.2019.00064
 
 **GitHub Repository**: https://github.com/AthenaEPI/dmipy
 
@@ -30,8 +30,10 @@ Diffusion MRI microstructure estimation using dmipy multi-compartment models
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

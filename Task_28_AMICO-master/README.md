@@ -6,7 +6,7 @@ NODDI diffusion MRI parameter estimation using AMICO framework
 
 **Title**: Accelerated Microstructure Imaging via Convex Optimization (AMICO) from diffusion MRI data
 
-**Link**: [https://doi.org/10.1016/j.neuroimage.2014.10.026](https://doi.org/10.1016/j.neuroimage.2014.10.026)
+**Link**: https://doi.org/10.1016/j.neuroimage.2014.10.026
 
 **GitHub Repository**: https://github.com/daducci/AMICO
 
@@ -31,8 +31,10 @@ NODDI diffusion MRI parameter estimation using AMICO framework
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

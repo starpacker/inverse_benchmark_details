@@ -6,7 +6,7 @@ Electrical resistivity tomography using pyGIMLi
 
 **Title**: pyGIMLi: An open-source library for modelling and inversion in geophysics
 
-**Link**: [https://doi.org/10.1016/j.cageo.2017.07.011](https://doi.org/10.1016/j.cageo.2017.07.011)
+**Link**: https://doi.org/10.1016/j.cageo.2017.07.011
 
 **GitHub Repository**: https://github.com/gimli-org/pygimli
 
@@ -31,8 +31,10 @@ Electrical resistivity tomography using pyGIMLi
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

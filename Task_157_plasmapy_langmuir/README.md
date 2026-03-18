@@ -4,9 +4,9 @@ Langmuir probe analysis for plasma density/temperature
 
 ## 📄 Paper Information
 
-**Title**: None
+**Title**: ⚠️ PlasmaPy: An open source Python package for plasma research
 
-**Link**: [None](None)
+**Link**: ❌ Not documented
 
 **GitHub Repository**: https://github.com/PlasmaPy/PlasmaPy
 
@@ -30,8 +30,10 @@ Langmuir probe analysis for plasma density/temperature
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

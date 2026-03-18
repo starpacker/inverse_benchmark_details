@@ -6,7 +6,7 @@ Exoplanet atmosphere retrieval using POSEIDON radiative transfer
 
 **Title**: POSEIDON: A Multidimensional Atmospheric Retrieval Code for Exoplanet Spectra
 
-**Link**: [doi:10.3847/1538-4357/ac47fe (MacDonald & Madhusudhan, ApJ, 2023)](doi:10.3847/1538-4357/ac47fe (MacDonald & Madhusudhan, ApJ, 2023))
+**Link**: doi:10.3847/1538-4357/ac47fe (MacDonald & Madhusudhan, ApJ, 2023)
 
 **GitHub Repository**: https://github.com/MartianColonist/POSEIDON
 
@@ -31,8 +31,10 @@ Exoplanet atmosphere retrieval using POSEIDON radiative transfer
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

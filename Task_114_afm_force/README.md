@@ -4,11 +4,11 @@ AFM force spectroscopy inversion using Sader method
 
 ## 📄 Paper Information
 
-**Title**: None
+**Title**: ⚠️ No dedicated paper — implements Sader-Jarvis method from: Quantitative force measurements using frequency modulation atomic force microscopy
 
-**Link**: [https://doi.org/10.1063/1.1667267](https://doi.org/10.1063/1.1667267)
+**Link**: https://doi.org/10.1063/1.1667267
 
-**GitHub Repository**: None
+**GitHub Repository**: ⚠️ https://github.com/Probe-Particle/ppafm
 
 ## 📊 Performance Metrics
 
@@ -31,8 +31,10 @@ AFM force spectroscopy inversion using Sader method
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

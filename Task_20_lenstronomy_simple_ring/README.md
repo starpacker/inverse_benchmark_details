@@ -6,7 +6,7 @@ Gravitational lensing mass reconstruction for simple Einstein ring using MCMC
 
 **Title**: lenstronomy II: A gravitational lensing software ecosystem
 
-**Link**: [doi:10.21105/joss.03283](doi:10.21105/joss.03283)
+**Link**: doi:10.21105/joss.03283
 
 **GitHub Repository**: https://github.com/lenstronomy/lenstronomy
 
@@ -31,8 +31,10 @@ Gravitational lensing mass reconstruction for simple Einstein ring using MCMC
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

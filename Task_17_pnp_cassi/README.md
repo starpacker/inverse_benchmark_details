@@ -6,7 +6,7 @@ Snapshot compressive spectral imaging (CASSI) using plug-and-play ADMM with deno
 
 **Title**: Deep plug-and-play priors for spectral snapshot compressive imaging
 
-**Link**: [doi:10.1364/PRJ.411745](doi:10.1364/PRJ.411745)
+**Link**: doi:10.1364/PRJ.411745
 
 **GitHub Repository**: https://github.com/zsm1211/PnP-CASSI
 
@@ -30,8 +30,10 @@ Snapshot compressive spectral imaging (CASSI) using plug-and-play ADMM with deno
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results

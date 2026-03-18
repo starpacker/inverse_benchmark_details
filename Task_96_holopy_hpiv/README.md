@@ -6,7 +6,7 @@ Holographic particle image velocimetry using digital holography
 
 **Title**: HoloPy: Holography and Light Scattering in Python
 
-**Link**: [None](None)
+**Link**: ⚠️ doi:10.5281/zenodo.592838 (Zenodo DOI)
 
 **GitHub Repository**: https://github.com/manoharan-lab/holopy
 
@@ -31,8 +31,10 @@ Holographic particle image velocimetry using digital holography
 │   ├── gt_output.*          # Ground truth output
 │   └── recon_output.*       # Reconstruction output
 ├── test/                     # Test files
-│   ├── test_*.py            # Unit tests
-│   └── test_data/           # Test data
+│   ├── agents/              # Agent files
+│   ├── tests/               # Unit tests
+│   ├── docs/                # Documentation
+│   └── verification_utils.py # Verification utilities
 ├── docs/                     # Documentation
 │   └── qa.json              # Q&A documentation
 └── assets/                   # Visualization results
